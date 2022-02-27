@@ -6,12 +6,12 @@
   "jenkins-runner.jobs": {
       "ide": {
           "isDefault": true,
-          "runWith": "host-no-password",
+          "runWith": "pipelines-8080",
           "name": "ide",
       } 
     },
       "jenkins-runner.hostConfigs": {
-          "host-with-password": {
+          "pipelines-8080": {
               "url": "http://localhost:8090",
               "user": "admin",
               "password": "admin",
